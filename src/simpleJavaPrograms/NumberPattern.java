@@ -50,10 +50,16 @@ public class NumberPattern {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("Pattern 1");
 		printNumberPattern(5);
+		
+		System.out.println("Pattern 2");
 		printSameNumberPattern(5);
+		
+		System.out.println("Pattern 3");
 		printOddNumberPattern(10);
 		
+		System.out.println("Pattern 4");
 		NumberPattern np = new NumberPattern();
 		np.numberReverse(59989);
 	}
